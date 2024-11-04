@@ -11,6 +11,9 @@
     padding: 0;
     margin: 0;
 }
+img{
+  max-width: 100%;
+}
 /* Font Family
   font-family: "Inter", sans-serif;
   font-family: "Poppins", serif;
@@ -69,7 +72,6 @@
 }
 /* banner Section */
 .banner-section {
-	background: url(./images/Circle\ design.svg) no-repeat right center;
 	display: flex;
 	padding: 90px 0;
 	align-items: center;
@@ -90,6 +92,12 @@
 	margin-bottom: 30px;
 }
 .banner-image {
+  background: url(./images/Circle\ design.svg) no-repeat right center;
+	background-size: contain;
 	width: 50%;
 	text-align: right;
 }
+.banner-image {
+
+}
+/* Sponsor Section */

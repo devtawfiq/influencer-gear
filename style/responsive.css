@@ -1,9 +1,64 @@
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
+    /* header and banner */
+    .container-flued {
+        width: 95%;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        margin-top: 22px;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .banner-section {
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
     
+    .banner-image {
+        background-position-x: center;
+        width: 100%;
+    }
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner-content h1 {
+        font-size: 28px;
+        line-height: 43px;
+        margin-bottom: 15px;
+    }
+    .banner-content p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        padding: 0 7px;
+    }
 }
 
 /* Tablet Devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+    /* header and banner */
+    .container-flued {
+        width: 85%;
+    }
+    .menu {
+        width: 60%;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .banner-content p {
+        font-size: 15px;
+    }
 }
