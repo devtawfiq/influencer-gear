@@ -4,6 +4,9 @@
     .container-flued {
         width: 95%;
     }
+    .header-section {
+        padding: 20px 0 0 0;
+    }
     .navbar{
         flex-direction: column;
     }
@@ -43,6 +46,15 @@
         margin-bottom: 20px;
         padding: 0 7px;
     }
+    /* Sponsor Devices */
+    .container {
+        width: 90%;
+    }
+    .sponsor-wrap {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 23px;
+    }
+    /* product Section */
 }
 
 /* Tablet Devices */
@@ -61,4 +73,12 @@
     .banner-content p {
         font-size: 15px;
     }
+    /* Sponsor Section */
+    .container {
+        width: 80%;
+    }
+    .sponsor-wrap {
+        gap: 30px;
+    }
+    /* product Section */
 }
