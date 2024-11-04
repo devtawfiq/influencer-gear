@@ -55,6 +55,13 @@
         gap: 23px;
     }
     /* product Section */
+    .product-box-wrap {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .product-item {
+        margin-bottom: 20px;
+        
+    }
 }
 
 /* Tablet Devices */
@@ -81,4 +88,11 @@
         gap: 30px;
     }
     /* product Section */
+    .product-box-wrap {
+        grid-template-columns: repeat(3, 250px);
+        gap: 4px;
+    }
+    .product-item {
+        margin-bottom: 19px;
+    }
 }
